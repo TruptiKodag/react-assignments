@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.Demo{
+  border:1px solid red;
+  margin:10px 0;
+  float:left;
+}
+.NmToggle{
+  border:1px solid blue;
+  width:300px;
+  margin:10px 0;
+  float:left;
+}
+.DashBoar{
+  border:1px solid black;
+  width:300px;
+  float:right;
+  margin-top: -340px;
+    margin-right: 365px;
+}
+.DashBoard{
+  border:1px solid black;
+  width:300px;
+  margin:10px 0;
+  float:left;
+}
+.DashBoard h1{
+  color:pink;
+  font-size:20px;
+}
+.DashBoard h2{
+  color:violet;
+}
+.ComToggle{
+  border:1px solid brown;
+  width:300px;
+  margin:10px 0;
+  float:left;
+}
+.FalVal{
+  width:200px;
+  height:300px;
+  border:1px soild green;
+}
+.ClsssToggle{
+  width:100px;
+  height:100px;
+  display:inline-block;
+  border:1px solid brown;
+  background-color:pink;
+}
+.ClssToggle{
+  width:100px;
+  height:100px;
+  display:inline-block;
+  border:1px solid brown;
+  background-color:grey;
+  
+}
+.ClsToggle{
+  width:100px;
+  background-color:green;
+  float:right;
+  margin-right:155px;
+  margin-bottom:50px;
+  margin-top:100px;
+}
+.DivWr{
+  border:1px solid red;
+  background-color:pink;
+  width:100px;
+  height:100px;
+  margin-left:50px;
+}
+.DivWrap{
+  width:200px;
+  height:200px;
+  border:1px solid red;
+  margin:20px 0 0 150px;
+}
+.CDiv{
+  border:1px solid black;
+  padding:20px;
+  display:inline-block;
+}
+.PDiv{
+  border:1px solid black;
+  padding:20px;
+  display:inline-block;
+  margin:-130px 0px 0px -393px;
+}
+.divWrapper{
+  border:1px solid red;
+  display:inline-block;
+  margin:0px 264px 0px 45px;
+}
+.UlWrapper{
+  display:inline-block;
+  overflow:hidden;
+}
+.FormContent{
+  border:1px solid black;
+  display:inline-block;
+  margin-left:94px;
+}
+#new-todo{
+  margin-bottom:30px;
+}
+.DashBoar{
+  border:1px solid red;
+}
+.OrderList{
+  border:1px solid black;
+  display:inline-block;
+  margin-left:20px;
+}
+.FormVal{
+  border:1px solid red;
+  display:inline-block;
+}
+.PerInfo{
+  border:1px solid green;
+  display:inline-block;
+  margin-left: 70px;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
