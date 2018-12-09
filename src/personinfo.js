@@ -29,7 +29,10 @@ export default class PersonInfo extends React.Component {
     editValueFromList = (index, changeValue) => {
         const editList = [...this.state.list];
         editList[index] = changeValue;
+
         this.setState({ list: editList });
+        console.log(this.state.list);
+
     };
 
     render() {

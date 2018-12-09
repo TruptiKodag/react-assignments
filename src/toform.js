@@ -17,12 +17,12 @@ export default class TodoApp extends React.Component {
         <Link to="/list" className="dkhzadkha">list</Link>
         <br />
         <Link to="/list/testimonial" className="testimonial">testimonial</Link>
+        <br />
+        <Link to="/color" className="testimonial">color</Link>
         <form onSubmit={this.handleSubmit}>
           <label >
             My Plan
-            </label> <input
-
-            onChange={this.handleChange}
+            </label> <input type='text' onChange={this.handleChange}
             value={this.state.text}
           />
           <button>

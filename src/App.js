@@ -14,7 +14,7 @@ import MyFriend from "./Property";
 import MyForm from "./FormList";
 import ToDoAppl from "./listtodo";
 import DisplayValue from './displayvalue';
-
+import ParentColor from './ColorComponent/ParentColor';
 import PersonInfo from './personinfo';
 
 class App extends React.Component {
@@ -35,8 +35,8 @@ class App extends React.Component {
             <DisplayValue />
             <PersonInfo />
 
-            <NamePrp a={2} b={4} operater={'+'} />
-
+            <NamePrp a='hiiii' />
+            <ParentColor />
             <MyForm />
 
         </div>

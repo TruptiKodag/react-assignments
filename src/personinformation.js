@@ -21,16 +21,16 @@ export default class User extends React.Component {
         return (
             <div className="PerInfo">
                 <ol>
-                    {this.props.list.map((person, index) => (
+                    {this.props.list.map((value, index) => (
                         <li key={index}>
                             {this.state.editIndex === index ?
                                 <PerInfo
-                                    rowValue={person.name}
-                                    addList={(name) => { this.addList(index, name) }} />
+                                    rowValue={value.Name}
+                                    addList={({ value }) => { this.addList(value.id, value.Name) }} />
                                 :
                                 <div>
 
-                                    <span>{person.name}</span>
+                                    <span>{value.Name}</span>
                                     <button onClick={() => { this.props.remList(index) }}>delete</button>
                                     <button onClick={() => { this.editIndex(index) }}>edit</button>
                                 </div>

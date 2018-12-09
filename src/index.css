@@ -12,3 +12,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.Color-Wrap{
+  width:100px;
+  height:200px;
+  border:1px solid red;
+}
